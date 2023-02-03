@@ -14,6 +14,9 @@ contract PrivateChat {
       string compressionAlgorithm;
       uint createdAt;
       address[] parties;
+
+      // messages are not simple strings. This is a base64 encoded json
+      // following: https://github.com/emilianop11/private-chat
       string[] messages;
     }
 
