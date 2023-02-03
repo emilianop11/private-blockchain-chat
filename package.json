@@ -1,0 +1,16 @@
+{
+  "name": "private-blockchain-chat",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "chai": "^4.3.6",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.9.1"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.3",
+    "solidity-struct-parser": "^1.0.1"
+  }
+}
